@@ -55,7 +55,7 @@ body {
       hsl(277, 64%, 61%, 0.6),
       hsl(277, 64%, 61%, 0.6)
     ),
-    url("/statspreviewcomponent/resources/img/image-header-desktop.jpg");
+    url("/resources/img/image-header-desktop.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0 5px 5px 0;
