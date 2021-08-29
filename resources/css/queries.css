@@ -1,0 +1,46 @@
+@media only screen and (max-width: 375px) {
+  .container {
+    max-width: 350px;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+  }
+  .image-part {
+    height: 275px;
+    background-image: linear-gradient(
+        hsl(277, 64%, 61%, 0.6),
+        hsl(277, 64%, 61%, 0.6)
+      ),
+      url("/resources/img/image-header-mobile.jpg");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    border-radius: 5px 5px 0 0;
+    grid-row: 1/2;
+  }
+  .text-part {
+    display: grid;
+    padding: 20px;
+    text-align: center;
+    row-gap: 10px;
+  }
+  .text-part h1 {
+    margin: 0;
+  }
+  .text-part p {
+    margin: 0;
+    font-size: 12;
+    line-height: 1.6;
+  }
+  .bottom-list {
+    margin: 0;
+    display: block;
+    list-style: none;
+    font-size: 12px;
+    line-height: 1.4;
+    align-self: end;
+  }
+  .bottom-list li {
+    margin-bottom: 10px;
+  }
+}
